@@ -7,7 +7,7 @@ int main()
 {
     std::cout << "Hello World!\n";
 }
-
+// hom nay la thutu
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
