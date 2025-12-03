@@ -21,5 +21,5 @@ void cau2() {
 }
 
 int main() {
-
+	cau2();
 }
