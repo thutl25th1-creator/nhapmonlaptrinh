@@ -69,6 +69,6 @@ void cau5() {
 }
 int main()
 {
-    cau5();
+ 
 }
 
