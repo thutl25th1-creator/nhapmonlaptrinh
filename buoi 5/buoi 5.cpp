@@ -39,9 +39,26 @@ void cau3() {
         cout << "nghiem la: " << (-b * 1.0 / a) << endl;
     }
 }
+void cau4() {
+    int thang;
+    cout << " Nhap thang: ";
+    cin >> thang;
+    if (thang <= 3) {
+        cout << "Quy 1";
+    }
+    else if(thang <= 6) {
+        cout << "Quy 2";
+    }
+    else if (thang <= 9) {
+        cout << "Quy 3";
+    }
+    else if (thang <= 12) {
+        cout << "Quy 4";
+    }
+}
 int main()
 {
-    cau3();
+    cau4();
 
 }
 
