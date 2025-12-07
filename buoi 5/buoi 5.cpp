@@ -78,9 +78,42 @@ void cau5(){
         cout << "Khong la tam giac" << endl;
     }
     }
+void cau6() {
+    int a, b, c;
+    cout << "Nhap a, b, c: ";
+    cin >> a >> b >> c;
+    if (a == 0) {
+        if (b == 0) {
+            if (c == 0) {
+                cout << "Phuong trinh vo so nghiem" << endl;
+            }
+            else {
+                cout << "Phuong trinh vo nghiem" << endl;
+            }
+        }
+        else {
+            cout << "Nghiem phuong trinh: " << -c * 1.0 / b << endl;
+        }
+    }
+    else {
+        int delta = b * b - 4 * a * c;
+        if (delta < 0) {
+            cout << "Phuong trinh vo nghiem" << endl;
+        }
+        else {
+            if (delta == 0) {
+                cout << "Phuong trinh co nghiem kep: " << -b * 1.0 / (2 * a) << endl;
+            }
+            else {
+                cout << "Nghiem x1 = " << (-b - sqrt(delta)) / (2 * a) << endl;
+                cout << "Nghiem x1 = " << (-b + sqrt(delta)) / (2 * a) << endl;
+            }
+        }
+    }
+}
 int main()
 {
-    cau5();
+    cau6();
 
 }
 
