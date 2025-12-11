@@ -46,8 +46,19 @@ void cau5() {
         }
     }
 }
+void cau6() {
+    int n, tong = 0;
+    cout << "Nhap n: ";
+    cin >> n;
+    for (int i = 1; i < n; i++) {
+        if (n % i == 0) {
+            tong += i;
+        }
+    }
+    cout << "Tong cac uoc: " << tong << endl;
+}
 int main()
 {
-    cau5();
+    cau6();
 }
 
