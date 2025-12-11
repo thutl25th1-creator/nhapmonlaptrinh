@@ -1,21 +1,17 @@
 #include <iostream>
 using namespace std;
 
+void cau1() {
+    int n, tong = 0;
+    cout << "Nhap n: ";
+    cin >> n;
+    for (int i = 1; i <= n; i++) {
+        tong += 1;
+    }
+    cout << "Tong: " << tong << endl;
+}
 int main()
 {
-    for (int i = 1; i <= 5; i++) {
-        cout << "For Hello:" << endl;
-    }
-    int j = 1;
-    while (j <= 5) {
-        cout << "While Hello: " << j << endl;
-        j++;
-    }
-
-    int k = 1;
-    do {
-        cout << "Do ..While Hello: " << k << endl;
-        k++;
-    } while (k <= 5);
+    cau1();
 }
 
