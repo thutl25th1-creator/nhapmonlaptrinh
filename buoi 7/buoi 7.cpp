@@ -1,11 +1,7 @@
-#include <iostream>
-#include "SoNguyen.h"
-using namespace std;
+#include "BaiTap6.h"
 
 int main()
 {
-	int a = 25, b = 60;
-	int uocchunglonnhat = UCLN(a, b);
-	cout << "Uoc chung lon nhat: " << uocchunglonnhat << endl;
+	 cau11();
 }
 
