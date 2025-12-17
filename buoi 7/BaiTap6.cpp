@@ -15,3 +15,11 @@ void cau11() {
 		}
 	}
 }
+
+void cau12() {
+	for (int ga = 0; ga <= 36; ga++) {
+		int cho = 36 - ga;
+		if (ga * 2 + cho * 4 == 100)
+			cout << ga << "xGa + " << cho << "xCho" << endl;
+	}
+}

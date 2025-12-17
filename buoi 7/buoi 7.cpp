@@ -2,6 +2,6 @@
 
 int main()
 {
-	 cau11();
+	 cau12();
 }
 
