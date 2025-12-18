@@ -5,6 +5,7 @@ int main()
 {
 	int a[MAX], n = 0;
 	input(a, n);
-	output(a, n);
+	//output(a, n);
+	giatrichan(a, n);
 }
 
