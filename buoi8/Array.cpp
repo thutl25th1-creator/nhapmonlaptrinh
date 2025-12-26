@@ -54,3 +54,12 @@ void tonggiatriam(int b[], int n) {
 	}
 	cout << "Tong am: " << tong << endl;
 }
+void sapxep(int b[], int n) {
+	for (int i = 0; i < n - 1; i++) 
+		for (int j = i + 1; j < n; j++)
+			if (b[j] < b[i]) {
+				int t = b[j];
+				b[j] = b[i];
+				b[i] = t;
+	}
+}

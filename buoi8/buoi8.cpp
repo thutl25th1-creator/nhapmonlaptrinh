@@ -9,6 +9,8 @@ int main()
 	//giatrichan(a, n);
 	//vitriam(a, n);
 	//giatrilonnhat(a, n);
-	tonggiatriam(a, n);
+	//tonggiatriam(a, n);
+	sapxep(a, n);
+	output(a, n);
 }
 
