@@ -7,3 +7,4 @@ void tonggiatriam(int b[], int n);
 void sapxep(int b[], int n);
 int giatriduongdautien(int b[], int n);
 int giatrichancuoicung(int b[], int n);
+int vitrichandautien(int b[], int n);
