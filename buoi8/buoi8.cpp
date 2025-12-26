@@ -1,4 +1,6 @@
 #include "Array.h"
+#include <iostream>
+using namespace std;
 #define MAX 100
 
 int main()
@@ -10,7 +12,14 @@ int main()
 	//vitriam(a, n);
 	//giatrilonnhat(a, n);
 	//tonggiatriam(a, n);
-	sapxep(a, n);
-	output(a, n);
+	//sapxep(a, n);
+	//output(a, n);
+	int kq = giatriduongdautien(a, n);
+	if (kq == -1) {
+		cout << "khong co gia tri duong trong mang" << endl;
+	}
+	else {
+		cout << "Gia tri duong dau tien: " << kq << endl;
+	}
 }
 
