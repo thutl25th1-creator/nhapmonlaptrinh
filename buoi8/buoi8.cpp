@@ -8,6 +8,7 @@ int main()
 	//output(a, n);
 	//giatrichan(a, n);
 	//vitriam(a, n);
-	giatrilonnhat(a, n);
+	//giatrilonnhat(a, n);
+	tonggiatriam(a, n);
 }
 
